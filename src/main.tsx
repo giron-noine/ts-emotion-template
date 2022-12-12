@@ -5,6 +5,7 @@ import normalize from "normalize.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import OtherPage from "./pages/otherPage";
+import Canvas from "./pages/canvas";
 
 const styles = css`
   ${normalize}
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/other" element={<OtherPage />} />
+        <Route path="/canvas" element={<Canvas />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

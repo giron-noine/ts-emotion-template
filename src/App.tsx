@@ -32,6 +32,10 @@ function App() {
       <Link to="other">
         <p>To Other page</p>
       </Link>
+
+      <Link to="canvas">
+        <p>To Canvas page</p>
+      </Link>
     </div>
   );
 }
